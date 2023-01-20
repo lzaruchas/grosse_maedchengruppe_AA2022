@@ -1,4 +1,0 @@
-Task 1)
-We analyzed the data set for Divvy bike rentals in Chicago in 2016.
-First, we checked to see if null values were present. This was not the case for this dataset. Then, we removed rides that were shorter than one minute or were exactly one minute long with the same start and end stops.
-Additionally, we removed the rides where the user type was "Dependents" since these rides (40 total) are only a fraction and thus not crucial to the analysis. Finally, we removed duplicates and saved the processed dataset as a CSV.
